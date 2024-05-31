@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
   const [postCode1, setPostCode1] = useState("");
-  const [postCode2, setPostCode2] = useState("");
+  const [postCode2, setPostCode2] = useState(" ");
 
   const [result, setResult] = useState("");
 
